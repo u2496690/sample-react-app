@@ -71,7 +71,7 @@ const UserCard: React.FC = () => {
       {data ? (
         <CardBody>
           <div className="flex flex-col items-center">
-            <img src={data.pfp}></img>
+            <img src={data.pfp} width={34} height={34}></img>
             <h1 className="text-3xl font-bold">{data.username} Statistics:</h1>
             <p className="text-lg">Follower Count: {data.followercount}</p>
             <p className="text-lg">Following Count: {data.followingcount}</p>
