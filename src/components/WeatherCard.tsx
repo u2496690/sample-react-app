@@ -8,7 +8,6 @@ import {
   Button,
 } from "@nextui-org/react";
 import { useState } from "react";
-import { TiWeatherDownpour, TiWeatherSunny } from "react-icons/ti";
 import { getUserData } from "../api/actions";
 
 const UserCard: React.FC = () => {
