@@ -1,7 +1,7 @@
-interface WeatherData {
-  city: string;
-  temperature: number;
-  humidity: number;
-  wind: number;
-  rain: number;
+interface SocialMediaData {
+  username: string;
+  pfp: string,
+  followercount: number;
+  followingcount: number;
+  postsnum: number;
 }
