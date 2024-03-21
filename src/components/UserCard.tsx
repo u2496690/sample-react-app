@@ -17,7 +17,7 @@ const UserCard: React.FC = () => {
   const [error, setError] = useState("");
 
   const handleSearch = () => {
-    console.log("Fetching Weather Data...");
+    console.log("Fetching User Data...");
     console.log(user);
     setLoadingState(true);
     getUserData(user)
@@ -72,7 +72,7 @@ const UserCard: React.FC = () => {
         <CardBody>
           <div className="flex flex-col items-center">
             <h1 className="text-3xl font-bold">{data.username}</h1>
-            <img src={data.pfp}> </img>
+
             <p className="text-3xl font-bold">User Statistics:</p>
             <p className="text-lg">Follower Count: {data.followercount}</p>
             <p className="text-lg">Following Count: {data.followingcount}</p>
