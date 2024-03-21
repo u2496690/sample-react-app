@@ -1,11 +1,11 @@
 import { Navbar, NavbarBrand, NavbarContent } from "@nextui-org/react";
-import { MdApi } from "react-icons/md";
+import { MdOutlineNotificationsActive } from "react-icons/md";
 
 const NavBar = () => {
   return (
     <Navbar className="bg-slate-100 h-16">
       <NavbarBrand>
-        <MdApi className="w-8 h-8 text-primary" />
+        <MdOutlineNotificationsActive className="w-8 h-8 text-primary" />
         <p className="font-bold text-inherit">Social Media API</p>
       </NavbarBrand>
       <NavbarContent className="hidden sm:flex gap-4" justify="center">
