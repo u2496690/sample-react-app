@@ -1,6 +1,6 @@
 import axios, { AxiosError } from "axios";
 
-const API_URL = "https://literate-space-engine-69g6w5jjj456c5jv7-3000.app.github.dev/api";
+const API_URL = "https://scaling-space-waffle-g4q96rggg656hwgv7-3000.app.github.dev/api";
 
 export const getUserData = async (user: string): Promise<SocialMediaData> => {
   return new Promise<SocialMediaData>((resolve, reject) => {
