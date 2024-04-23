@@ -1,7 +1,9 @@
 import axios, { AxiosError } from "axios";
 
+// URL for API call
 const API_URL = "https://scaling-space-waffle-g4q96rggg656hwgv7-3000.app.github.dev/api";
 
+// Calls API and stores results in variables, catches and returns any errors
 export const getUserData = async (user: string): Promise<SocialMediaData> => {
   return new Promise<SocialMediaData>((resolve, reject) => {
     axios

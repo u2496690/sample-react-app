@@ -2,6 +2,7 @@ import "./App.css";
 import NavBar from "./components/NavBar";
 import UserCard from "./components/UserCard";
 
+// Displays react components on the page
 const App = () => {
   return (
     <div className="flex flex-col h-screen">

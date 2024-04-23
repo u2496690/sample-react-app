@@ -10,6 +10,7 @@ import {
 import { useState } from "react";
 import { getUserData } from "../api/actions";
 
+// User search GUI
 const UserCard: React.FC = () => {
   const [data, setData] = useState<SocialMediaData>();
   const [loadingState, setLoadingState] = useState(false);
@@ -36,7 +37,7 @@ const UserCard: React.FC = () => {
         setError(error);
       });
   };
-
+  // Displays user details after API call
   return (
     <Card className="max-w-[400px]">
       <CardHeader className="flex gap-3">

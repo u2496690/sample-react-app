@@ -1,6 +1,7 @@
 import { Navbar, NavbarBrand, NavbarContent } from "@nextui-org/react";
 import { MdOutlineNotificationsActive } from "react-icons/md";
 
+// GUI Navigation Bar
 const NavBar = () => {
   return (
     <Navbar className="bg-slate-100 h-16">
