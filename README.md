@@ -1,7 +1,7 @@
 # Links
 
 [Back End (API)](https://github.com/u2496690/social_media_api)\
-[Video Demonstration](https://uelac-my.sharepoint.com/:v:/g/personal/u2496690_uel_ac_uk/EW6Cvdj6WFtEusNZghQjfYsBCVIcVoea_NNv1q4-pXizcA?e=UYjW6Y)
+[Video Demonstration](https://uelac-my.sharepoint.com/:v:/g/personal/u2496690_uel_ac_uk/EewxDzlrdVNJkU_fNw8D_PoBF2EUDO9Qu0z_yxVE2roxig?e=ZmHwdp&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
 # Instructions
 1. Ensure that the backend is running publicly
